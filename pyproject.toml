@@ -1,0 +1,18 @@
+[project]
+name = "dating-service"
+version = "0.0.0-alpha.1"
+description = "Simple backend with fastapi for dating-service management"
+authors = [
+    {name = "Maziyar Isanezhad"}
+]
+license = "MIT"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard] (>=0.141.1,<0.142.0)",
+    "uvicorn (>=0.53.0,<0.54.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
